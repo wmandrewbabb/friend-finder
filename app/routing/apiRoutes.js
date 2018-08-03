@@ -15,24 +15,24 @@ module.exports = function(app) {
       user.scores[i] = parseInt(user.scores[i]);
     }
 
-    var bestFriendIndex = 0;
-    var minimumDifference = 40;
+    var matchedUserIndex = 0;
+    var scoreDifference = 40;
 
     for(var i = 0; i < friends.length; i++) {
       var totalDifference = 0;
-      for(var j = 0; j < friends[i].scores.length; j++) {
-        var difference = Math.abs(user.scores[j] - friends[i].scores[j]);
+      for(var x = 0; x < friends[i].scores.length; x++) {
+        var difference = Math.abs(user.scores[x] - friends[i].scores[x]);
         totalDifference += difference;
       }
 
-      if(totalDifference < minimumDifference) {
-        bestFriendIndex = i;
-        minimumDifference = totalDifference;
+      if(totalDifference < scoreDifference) {
+        matchedUserIndex = i;
+        scoreDifference = totalDifference;
       }
     }
 
     friends.push(user);
 
-    res.json(friends[bestFriendIndex]);
+    res.json(friends[matchedUserIndex]);
   });
 };
