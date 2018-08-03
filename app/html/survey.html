@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>80s Friend Finder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Monoton|Bungee|Archivo+Narrow" rel="stylesheet">
+</head>
+<body id="surveyBody">
+
+		<h1 id="surveytop">The 80s Survey</h1>
+		<p id="surveyp">Take a quick survey to find your perfect match! These questions are answered by the numbers 1 through 5. If you really, really disagree with the statement, your answer would be 1. If you find a statement to hit extremely close to home, put in a 5.</p>
+		<div class="container-fluid">
+		<form id="mainForm">
+			<div class="form-group">
+				<input id="name" type="text" class="form-control" placeholder="Name (Required)">
+			</div>
+			<div class="form-group">
+				<input id="photo" type="text" class="form-control" placeholder="HTTP link to a square profile photo (Required)">
+			</div>
+			<div class="form-group" id="question1">
+				<label for="question1" class="surveyQs">How 80s are you?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question1Radio1" name="question1Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question1Radio1">1 (Not at all)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question1Radio2" name="question1Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question1Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question1Radio3" name="question1Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question1Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question1Radio4" name="question1Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question1Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question1Radio5" name="question1Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question1Radio5">5 (Extremely)</label>
+				</div>		
+			</div>
+			<div class="form-group" id="question2">
+				<label for="question2" class="surveyQs">How good is John Hughes, the director?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question2Radio1" name="question2Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question2Radio1">1 (Not at all)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question2Radio2" name="question2Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question2Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question2Radio3" name="question2Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question2Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question2Radio4" name="question2Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question2Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question2Radio5" name="question2Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question2Radio5">5 (Extremely)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question3">
+				<label for="question3" class="surveyQs">Is chrome wicked and/or sweet?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question3Radio1" name="question3Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question3Radio1">1 (Not at all)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question3Radio2" name="question3Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question3Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question3Radio3" name="question3Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question3Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question3Radio4" name="question3Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question3Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question3Radio5" name="question3Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question3Radio5">5 (Extremely)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question4">
+				<label for="question4" class="surveyQs">Is the Nintendo Powerglove... BAD?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question4Radio1" name="question4Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question4Radio1">1 (Not at all)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question4Radio2" name="question4Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question4Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question4Radio3" name="question4Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question4Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question4Radio4" name="question4Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question4Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question4Radio5" name="question4Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question4Radio5">5 (Extremely)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question5">
+				<label for="question5" class="surveyQs">Saturday Morning Cartoons... awful or rad?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question5Radio1" name="question5Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question5Radio1">1 (Awful)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question5Radio2" name="question5Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question5Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question5Radio3" name="question5Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question5Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question5Radio4" name="question5Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question5Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question5Radio5" name="question5Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question5Radio5">5 (Rad)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question6">
+				<label for="question6" class="surveyQs">How many 80s themes can you recognize?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question6Radio1" name="question6Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question6Radio1">1</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question6Radio2" name="question6Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question6Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question6Radio3" name="question6Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question6Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question6Radio4" name="question6Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question6Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question6Radio5" name="question6Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question6Radio5">5+</label>
+				</div>
+			</div>
+			<div class="form-group" id="question7">
+				<label for="question7" class="surveyQs">Does hanging out at an arcade sound appealing?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question7Radio1" name="question7Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question7Radio1">1 (Not at all)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question7Radio2" name="question7Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question7Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question7Radio3" name="question7Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question7Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question7Radio4" name="question7Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question7Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question7Radio5" name="question7Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question7Radio5">5 (Extremely)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question8">
+				<label for="question8" class="surveyQs">Rate your nostalgia when watching "Stranger Things:"</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question8Radio1" name="question8Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question8Radio1">1 (None at all)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question8Radio2" name="question8Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question8Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question8Radio3" name="question8Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question8Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question8Radio4" name="question8Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question8Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question8Radio5" name="question8Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question8Radio5">5 (Extremely)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question9">
+				<label for="question9" class="surveyQs">Synth music or Symphony?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question9Radio1" name="question9Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question9Radio1">1 (Extremely Synth)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question9Radio2" name="question9Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question9Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question9Radio3" name="question9Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question9Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question9Radio4" name="question9Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question9Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question9Radio5" name="question9Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question9Radio5">5 (Extremely Symphony)</label>
+				</div>
+			</div>
+			<div class="form-group" id="question10">
+				<label for="question10" class="surveyQs">How good enough are the goonies?</label>
+				<br>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "1" id="question10Radio1" name="question10Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question10Radio1">1 (not really good enough)</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "2" id="question10Radio2" name="question10Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question10Radio2">2</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "3" id="question10Radio3" name="question10Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question10Radio3">3</label>
+				</div>
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "4" id="question10Radio4" name="question10Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question10Radio4">4</label>
+				</div>	
+				<div class="custom-control custom-radio custom-control-inline">
+					<input type="radio" value = "5" id="question10Radio5" name="question10Radio1" class="custom-control-input">
+					<label class="custom-control-label" for="question10Radio5">5 (good enough)</label>
+				</div>
+			</div>
+		</form>
+		<div class="text-center">
+			<button id="submitBtn" type="submit" class="btn btn-warning btn-lg">Submit</button>
+		</div>
+		
+		<!-- Modal after survey completion -->
+		<div id="matchedUserModal" class="modal fade" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title">Your New Best Friend:</h1>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>	
+					</div>
+					<div class="modal-body">
+						<h2 id="matchedUser"></h2>
+						<img id="matchedUserPhoto" src="#">
+					</div>
+					<div class="modal-footer justify-content-center">
+						<button type="button" class="btn btn-default" data-dismiss="modal">GREAT!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<a href="/api/friends">80s Friend Finder API</a>
+			<span>•</span>
+			<a href="https://github.com/wmandrewbabb/friend-finder">GitHub Repository</a>
+		</div>
+	</footer>
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+<script type="text/javascript">
+	$("#submitBtn").on("click", function(event) {
+		event.preventDefault();
+
+		var valid = true;
+
+		if($("#name").val() === "" || $("#photo").val() === "") {
+
+			valid = false; 
+			//okay, I could go way more overboard and check to see if the url is actually a valid path, but
+			//is that really a good use of time when I've only got two more days before it's due?
+			//...
+			//Yeah, it probably is, making a note to come back to this
+
+		} else //if($("#question1 input:radio:checked").val() == null || $("#question2 input:radio:checked").val() == null || $("#question3 input:radio:checked").val() == null || $("#question4 input:radio:checked").val() == null || $("#question5 input:radio:checked").val() == null || $("#question6 input:radio:checked").val() == null || $("#question7 input:radio:checked").val() == null || $("#question8 input:radio:checked").val() == null || $("#question9 input:radio:checked").val() == null || $("#question10 input:radio:checked").val() == null) {
+			{
+				for(x=1; x<11; x++) {
+				if($(`#question${x} input:radio:checked`).val() == null) {
+					valid = false;
+				}
+			}
+			//valid = false; 
+			
+			//there is probably an easier way to do this, like perhaps using string concatenation and a loop
+			//--which i just did above, just to check if it worked, and it did
+			//--but i'm leaving the old code in as an example of the looooong way
+
+		}
+
+		if(valid === true) {
+			var userSubmit = {
+				name: $("#name").val().trim(),
+				photo: $("#photo").val().trim(),
+				scores: [
+					$("#question1 input:radio:checked").val(),
+					$("#question2 input:radio:checked").val(),
+					$("#question3 input:radio:checked").val(),
+					$("#question4 input:radio:checked").val(),
+					$("#question5 input:radio:checked").val(),
+					$("#question6 input:radio:checked").val(),
+					$("#question7 input:radio:checked").val(),
+					$("#question8 input:radio:checked").val(),
+					$("#question9 input:radio:checked").val(),
+					$("#question10 input:radio:checked").val()
+				]
+			};
+			
+			var currentURL = window.location.origin;
+
+			$.post(currentURL + "/api/friends", userSubmit, function(data) {
+				$("#matchedUser").text(data.name);
+				$("#matchedUserPhoto").attr("src", data.photo);
+				$("#matchedUserModal").modal("toggle");
+			});
+			
+			for(x=1; x<11; x++)
+			{
+				var ele = document.getElementsByName(`question${x}Radio1`);
+				for(var i=0;i<ele.length;i++)
+					{ele[i].checked = false;}
+				// return false; //we did not need this
+			}
+
+
+			$('#name').val('');
+			$('#photo').val('');
+
+
+		} else {
+			alert("You forgot to answer something!");
+		}
+	});
+</script>
