@@ -26,6 +26,8 @@ body {
 .modal-content {
     background-color: black;
     color:white;
+    background: url("../images/the_grid.jpg") no-repeat center center fixed; 
+    background-size: cover;
 }
 
 .modal-header {
