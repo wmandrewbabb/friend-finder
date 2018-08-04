@@ -93,6 +93,10 @@ p {
 
 }
 
+#closeBtn {
+    font-size: 120%;
+}
+
 #surveytop {
     font-size: 72px;
     font-family: 'Bungee', cursive;
