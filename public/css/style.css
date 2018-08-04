@@ -1,0 +1,281 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+    background: #000;
+    background: url("../images/steveroeunsplashcity.png") no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+}
+
+#surveyBody {
+    background: url("../images/steveroeunsplashalley.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+#mainfoot{
+    position: absolute;
+    bottom: 0px;
+    min-width: 100%;
+}
+
+.modal-content {
+    background-color: black;
+    color:white;
+}
+
+.modal-header {
+    border-bottom: 1px solid fuchsia;
+
+}
+
+.modal-footer {
+    border-top: 0px;
+}
+
+.content {
+	flex: 1;
+}
+
+.titlebox {
+    max-width: 60%;
+    max-height: auto;
+}
+
+h1 {
+	font-family: 'Bungee', cursive;
+	font-size: 4em;
+	text-align: center;
+	margin-top: 75px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+	text-align: center;
+	/* max-width: 60%; */
+	line-height: 1.75;
+	margin: auto;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+#mainp{
+    max-width: 60%;
+}
+
+#surveyp {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.btn {
+    font-family: 'Bungee', cursive;
+    color: fuchsia;
+    -webkit-text-stroke: floralwhite .65px;
+    border-radius: 5px;
+    box-shadow: #000 0px 3px;
+    background: -moz-linear-gradient(top, #35315b 0%, #4c58ff 4%, #ccd6ff 30%, #ccd6ff 35%, #ccd6ff 35%, #ffffff 54%, #000f03 56%, #ec47ff 88%, #f7afff 100%);
+    background: -webkit-linear-gradient(top, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%);
+    background: linear-gradient(to bottom, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35315b', endColorstr='#f7afff',GradientType=0 ); 
+
+}
+
+#surveytop {
+    font-size: 72px;
+    font-family: 'Bungee', cursive;
+    -webkit-text-stroke: fuchsia 1px;
+    background: -moz-linear-gradient(top, #35315b 0%, #4c58ff 4%, #ccd6ff 30%, #ccd6ff 35%, #ccd6ff 35%, #ffffff 54%, #000f03 56%, #ec47ff 88%, #f7afff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+}
+
+footer {
+    font-size: 0.9rem;
+    text-align: right;
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Archivo Narrow', sans-serif;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: fuchsia;
+	padding: 10px;
+	-webkit-box-shadow: 0px -4px 35px 9px rgba(0,0,0,0.7);
+	-moz-box-shadow: 0px -4px 35px 9px rgba(0,0,0,0.7);
+    box-shadow: 0px -4px 35px 9px rgba(0,0,0,0.7);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#35315b+0,4c58ff+4,ccd6ff+30,ccd6ff+35,ccd6ff+35,ffffff+54,000f03+56,ec47ff+88,f7afff+100 */
+    /* background: #35315b;
+    background: -moz-linear-gradient(top, #35315b 0%, #4c58ff 4%, #ccd6ff 30%, #ccd6ff 35%, #ccd6ff 35%, #ffffff 54%, #000f03 56%, #ec47ff 88%, #f7afff 100%);
+    background: -webkit-linear-gradient(top, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%);
+    background: linear-gradient(to bottom, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35315b', endColorstr='#f7afff',GradientType=0 ); */
+}
+
+footer a {
+    color: fuchsia;
+    font-size: 0.9rem;
+    text-shadow: 0 0 32px white;
+    text-decoration: none;
+    -webkit-text-stroke: #000 .5px;
+}
+
+a:active {
+    text-decoration: none;
+    color: fuchsia;
+}
+
+a:hover {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.btn {
+    margin: 30px;
+    border-color: white;
+    border-width: 2px;
+    -webkit-transition: .2s ease-in-out;
+}
+
+.btn:hover {
+    border-color: white;
+    border-width: 2px;
+    box-shadow: #000 0px 5px;
+}
+
+form {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    background-color:  rgba(0, 0, 0, 0.70);
+    padding: 10px;
+}
+
+a {
+	color: rgb(255, 0, 212);
+	font-size: 20px;
+}
+
+.surveyQs {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    background-color: darkmagenta;
+    box-shadow: fuchsia -3px 0px;
+    width: 100%;
+}
+
+#matchedUserModal {
+    text-align: center;
+}
+
+/* .modal-title{
+    color:fuchsia;
+    text-shadow: #ccd6ff .5px .5px;
+} */
+
+#matchedUserPhoto {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: fuchsia 0px 4px;
+    border: white solid 1px;
+}
+
+span {
+	margin-left: 10px;
+	margin-right: 10px;
+    color: fuchsia;
+    text-shadow: 0 0 32px white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    -webkit-text-stroke: #000 .5px;
+}
+
+@media screen and (max-width: 768px){
+    .titlebox {
+        max-width: 90%;
+        max-height: auto;
+    }
+
+    h1 {
+        font-family: 'Bungee', cursive;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    #mainp{
+        max-width: 90%;
+    }
+
+    #surveyp {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #surveytop {
+        font-size: 36px;
+        font-family: 'Bungee', cursive;
+        -webkit-text-stroke: fuchsia 1px;
+        background: -moz-linear-gradient(top, #35315b 0%, #4c58ff 4%, #ccd6ff 30%, #ccd6ff 35%, #ccd6ff 35%, #ffffff 54%, #000f03 56%, #ec47ff 88%, #f7afff 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #35315b 0%,#4c58ff 4%,#ccd6ff 30%,#ccd6ff 35%,#ccd6ff 35%,#ffffff 54%,#000f03 56%,#ec47ff 88%,#f7afff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;    
+    }
+
+    p {
+        text-align: center;
+        /* max-width: 60%; */
+        line-height: 1.2em;
+        margin: auto;
+        font-size: 0.8em;
+        color: white;
+        padding: 10px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: rgba(0, 0, 0, 0.70);
+    }
+
+    form {
+        margin-top: 40px;
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin-left: 0%;
+        justify-content: center;
+        background-color:  rgba(0, 0, 0, 0.70);
+        padding: 10px;
+    }
+
+    body{
+        font-size: 80%;
+    }
+    
+    #mainForm {
+        font-size: 50%;
+    }
+    
+    .surveyQs {
+        font-size: 230%;
+    }
+}

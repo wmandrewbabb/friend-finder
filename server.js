@@ -6,7 +6,6 @@ var app = express();
 
 var PORT = process.env.PORT || 8080; //Port 8080 for our 80s survey!!!
 
-app.use(express.static(__dirname + "/app/css"));
 app.use(express.static('public')); //this means that i can put images and other files in a public folder and the server can find them
 
 //as an aside, I haven't run into any of the problems described in getting jquery to work fine or linking to css stylesheets
