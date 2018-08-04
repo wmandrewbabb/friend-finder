@@ -95,6 +95,8 @@ p {
 
 #closeBtn {
     font-size: 120%;
+    color: white;
+    -webkit-text-stroke: white 1px;
 }
 
 #surveytop {
